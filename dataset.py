@@ -67,3 +67,9 @@ with open('dados_glicemia_casual.txt', 'w') as arquivo:
 # 62 = Medição da glicemia antes do jantar 
 # 63 = Medição da glicemia após o jantar
 # 64 = Medição da glicemia antes do lanche
+
+# Diagnostico:
+# Hipoglicemia (baixa de açucar) [4] | valores a baixo de < 70
+# Glicemia está Normal [0] | Em jejum: < 100 | Pós-Sobrecarga: < 140 | Glicemia Casual: < 200
+# Tolerância à glicose diminuída [1] | Em jejum: 100 < 126 | Pós-Sobrecarga: 140 < 200 | Glicemia Casual: < 200
+# Diagnóstico de Diabetes mellitus [2] | Em jejum: >= 126 | Pós-Sobrecarga: >= 200 | Glicemia Casual: >= 200
